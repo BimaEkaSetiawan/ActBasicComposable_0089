@@ -36,3 +36,15 @@ fun Contohoolumn(modifier: Modifier){
     }
 }
 
+@Composable
+fun ContohRow(modifier: Modifier){
+    val kota = stringResource(id = R.string.kota)
+    Row (
+        modifier= Modifier. padding(top = 20.dp, start = 20.dp)
+
+    ) {
+        Text("Hello")
+        Text("Wolrd")
+    }
+}
+
