@@ -48,3 +48,10 @@ fun ContohRow(modifier: Modifier){
     }
 }
 
+@Composable
+fun TotalLetakColumn(modifier: Modifier){
+    Column(modifier =modifier.padding(top = 20.dp)) {
+        Text(text = "komponen 1")
+    }
+}
+
