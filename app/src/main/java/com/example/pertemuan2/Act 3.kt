@@ -25,3 +25,14 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import java.nio.file.WatchEvent
 
+@Composable
+fun Contohoolumn(modifier: Modifier){
+    Column(
+        modifier.padding(top = 20.dp, start = 20.dp)
+
+    ) {
+        Text("Hello")
+        Text("Wolrd")
+    }
+}
+
