@@ -79,6 +79,24 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                     .clip(CircleShape),
                 contentScale = ContentScale.Crop
             )
+            Spacer(modifier = Modifier.height(60.dp))
+
+            Text(
+                text = "Nama",
+                color = Color.White,
+                fontSize = 17.sp,
+                fontWeight = FontWeight.Bold
+            )
+
+            Text(
+                text = "Bima Eka Setiawan",
+                color = Color.White,
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Bold
+            )
+
+
+
 
 
     }
