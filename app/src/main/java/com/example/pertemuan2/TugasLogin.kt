@@ -45,6 +45,14 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 .background(Color.Black.copy(alpha = 0.35f))
         )
 
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(horizontal = 20.dp),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Top
+        ) {
 
+           }
     }
 }
