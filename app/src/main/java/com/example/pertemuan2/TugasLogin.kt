@@ -53,6 +53,24 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             verticalArrangement = Arrangement.Top
         ) {
 
-           }
+            Spacer(modifier = Modifier.height(50.dp))
+
+            Text(
+                text = "Login",
+                color = Color.Black,
+                fontSize = 32.sp,
+                fontWeight = FontWeight.Bold
+            )
+
+            Text(
+                text = "Ini adalah halaman login,",
+                color = Color.White,
+                fontSize = 16.sp
+            )
+
+
+
+
+
     }
 }
