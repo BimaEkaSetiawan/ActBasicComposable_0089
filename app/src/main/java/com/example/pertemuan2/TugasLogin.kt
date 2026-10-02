@@ -39,6 +39,12 @@ fun TugasLogin(modifier: Modifier = Modifier) {
         )
 
 
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .background(Color.Black.copy(alpha = 0.35f))
+        )
+
 
     }
 }
