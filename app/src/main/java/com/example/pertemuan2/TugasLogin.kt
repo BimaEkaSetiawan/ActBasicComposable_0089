@@ -68,8 +68,17 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 fontSize = 16.sp
             )
 
+            Spacer(modifier = Modifier.height(55.dp))
 
-
+            // Logo UMY berbentuk bulat
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = "Logo UMY",
+                modifier = Modifier
+                    .size(145.dp)
+                    .clip(CircleShape),
+                contentScale = ContentScale.Crop
+            )
 
 
     }
