@@ -1,4 +1,4 @@
-package com.example.pertemuan3
+package com.example.pertemuan2
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -16,7 +16,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Pertemuan2Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    TataletakBoxColumnRow(
+                    TugasLogin(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
